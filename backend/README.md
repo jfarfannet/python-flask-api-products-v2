@@ -13,7 +13,8 @@ python -c "from database.db import init_db; init_db()"
 py main.py
 
 6
-http://localhost:5000/usuarios
+http://localhost:8000/products/
+
 
 # Create product
 curl -X POST "http://localhost:8000/products/" -H "Content-Type: application/json" -d '{"name":"Laptop","description":"Gaming laptop","price":999.99,"stock":10}'
